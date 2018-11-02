@@ -1,0 +1,1 @@
+I do not know anything about functional programming. But this link gives a good idea about the solution https://galayko.rocks/posts/2018-07-06/
