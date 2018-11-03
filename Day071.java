@@ -10,12 +10,12 @@ public class Day71
 	}
 	public int rand5()
 	{
-		int i = 7*rand7()+rand7()-7;
-		while(i>=46)
+		int i = rand7();
+		while(i>=6)
 		{
-			i = 7*rand7()+rand7()-7;
+			i = rand7();
 		}
-		return ((i%5) +1);
+		return i;
 	}
 	private int rand7()
 	{
