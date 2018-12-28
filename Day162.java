@@ -33,7 +33,8 @@ public class Day162
 				if(temp.kinder.size() > 1) res = i+1;
 				temp = temp.kinder.get(s.charAt(i));
 			}
-			ret[count] = s.substring(0,res);
+			if(temp.kinder.size() != 0) ret[count] = "";
+			else ret[count] = s.substring(0,res);
 			count++;
 		}
 		return ret;
