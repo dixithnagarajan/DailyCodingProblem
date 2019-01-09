@@ -88,7 +88,7 @@ public class Day175
 		{
 			if(a[i].val > random) break;
 		}
-		return inds.get(i);
+		return inds.get(a[i].i);
 	}
 }
 
